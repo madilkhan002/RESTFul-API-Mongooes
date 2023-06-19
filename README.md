@@ -9,10 +9,14 @@ This is a simple REST API built with Node.js, Express.js, and MongoDB for managi
 * Configuration
 * Make sure you have MongoDB installed and running locally.
 * Update the MongoDB connection URI in index.js file to match your MongoDB configuration.
+   
 * Usage
-* Start the server: npm start
+   
+* Start the server: node index.js
 * The API will be accessible at http://localhost:8000
+   
 * API Endpoints
+   
 * POST /student: Create a new student. The request body should contain the student's information.
 * GET /student: Get all students.
 * GET /student/:email: Get a specific student by their email address.
@@ -27,7 +31,7 @@ Request:
   {
     "email": "john.doe@example.com",
     "name": "John Doe",
-    "courses": ["Math", "Science"],
+    "courses": ["DB", "OS"],
     "CGPA": 3.8
   }
   
@@ -38,7 +42,7 @@ Status: 201 Created
   "_id": "60c1c63c8182c52f30f1ae05",
   "email": "john.doe@example.com",
   "name": "John Doe",
-  "courses": ["Math", "Science"],
+  "courses": ["DB", "OS"],
   "CGPA": 3.8
 }
 
