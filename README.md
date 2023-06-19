@@ -7,12 +7,12 @@ This is a simple REST API built with Node.js, Express.js, and MongoDB for managi
 * Make sure you have MongoDB installed and running locally.
 * Update the MongoDB connection URI in index.js file to match your MongoDB configuration.
    
-* Usage
+*  Usage : 
    
 * Start the server: node index.js
 * The API will be accessible at http://localhost:8000
    
-* API Endpoints
+*  API Endpoints : 
    
 * POST /student: Create a new student. The request body should contain the student's information.
 * GET /student: Get all students.
