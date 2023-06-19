@@ -11,7 +11,7 @@ This is a simple REST API built with Node.js, Express.js, and MongoDB for managi
 * Update the MongoDB connection URI in index.js file to match your MongoDB configuration.
 * Usage
 * Start the server: npm start
-* The API will be accessible at http://localhost:3000
+* The API will be accessible at http://localhost:8000
 * API Endpoints
 * POST /student: Create a new student. The request body should contain the student's information.
 * GET /student: Get all students.
