@@ -1,6 +1,3 @@
-
-# Project Title
-
 This is a simple REST API built with Node.js, Express.js, and MongoDB for managing student information.
 
 * Installation
